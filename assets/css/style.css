@@ -91,10 +91,10 @@ header {
 
 /* projects */
 .projects {
+    margin: 0px 0px 0px 90px;
     top: 10vw;
     display: inline-block;
     height: 50vw;
-    width: 100%;
     color: black;
 }
 
@@ -106,22 +106,13 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* about */
 .about {
+    margin: -6px 0px 0px 0px;
     position: relative;
     padding: 100px 0 100px 0;
-    background-color: #fff;
-    /* background-image: linear-gradient(180deg, black, blue); */
+    /* background-color: #0099ff; */
+    background-image: linear-gradient(180deg, #0099ff, #1E50D8);
     color: black;
     text-align: center;
 }
@@ -145,17 +136,12 @@ header {
 
 
 
-
-
-
-
-
-
 /* contact */
 .contact {
     position: relative;
+    margin: 100px 0px 0px 0px;
     padding: 100px 0 100px 0;
-    background-image: linear-gradient(to right, blue, yellow);
+    background-image: linear-gradient(to right, #1E50D8, #E8EB25);
     color: black;
 }
 
@@ -178,7 +164,7 @@ header {
 
 .contact input,
 textarea {
-    /* background-image: linear-gradient(190deg, blue, yellow); */
+    border-radius: 5px;
     color: #000000;
     font-weight: bold;
     font-size: 15px;
@@ -189,6 +175,17 @@ textarea {
     width: 50%;
 }
 
+.contact input:focus,
+textarea:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+
+.contact input::placeholder,
+textarea::placeholder {
+    color: #1E50D8;
+    font-weight: bold;
+}
 
 .sosial-media {
     color: #fff;
