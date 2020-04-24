@@ -17,7 +17,7 @@
 
 5. Untuk logo kita belum buat, yg paham tentang design logo untuk kerja samanya team.
 
-6. Untuk form contact saya submit ke email [saya](https://bangunpsb@gmail.com) menggunakan formspree [formspree](https://formspree.io/) 
+6. Untuk form contact saya submit ke email [saya](https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfqbppRwtWWMnpMHBXgxFFLDQHgTxwZTNnVkzPwtmwrWNjXDfwkpCWNkHNcJBjGPJGlmvq) menggunakan formspree [formspree](https://formspree.io/) 
 
 
 				= = = T H A N K S = = =
