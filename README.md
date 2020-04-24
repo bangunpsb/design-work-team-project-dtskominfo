@@ -1,8 +1,9 @@
-# sample-b-18
+# Kelompok B-18 Prograte DTS HTML, CSS, Javascript.
 
 
-Catatan
+###Catatan
 
+***
 1.Gambar profile masing-masing, klw bisa png dimasukan ke folder assets/img/profile-team/bangun.png
 
 2.Isi quote di file Quote.txt, bebas karena ini hanya untuk contoh aja.
@@ -13,7 +14,9 @@ Catatan
 4.Untuk masukan tipe font, ukuran font, color, background, image, animation dll.
   Bisa dichat lewat grup telegram biar bisa didiskusikan bersama.
 
-	= = = T H A N K S = = =
+5.untuk logo kita belum buat, yg paham tentang design logo untuk kerja samanya team.
+
+			= = = T H A N K S = = =
 
 
-
+Yang belum bergabung, silahkan bergabung dan berdiskusi bareng disini [grup telegram](https://t.me/joinchat/JVLEpkzx2nNKGDSClVtpkA) 
