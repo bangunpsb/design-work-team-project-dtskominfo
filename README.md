@@ -15,11 +15,12 @@
 4. Untuk masukan tipe font, ukuran font, color, background, image, animation dll.
    Bisa dichat lewat grup telegram biar bisa didiskusikan bersama.
 
-5. untuk logo kita belum buat, yg paham tentang design logo untuk kerja samanya team.
+5. Untuk logo kita belum buat, yg paham tentang design logo untuk kerja samanya team.
+
+6. Untuk form contact saya submit ke email [saya](https://bangunpsb@gmail.com) menggunakan formspree [formspree](https://formspree.io/) 
 
 
-
-			= = = T H A N K S = = =
+				= = = T H A N K S = = =
 
 	Yang belum bergabung, silahkan bergabung dan berdiskusi bareng 
 	disini [grup telegram](https://t.me/joinchat/JVLEpkzx2nNKGDSClVtpkA) 
