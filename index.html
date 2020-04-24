@@ -7,7 +7,9 @@
     <title>DTS P B-18</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/property.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="assets/js/typed.min.js"></script>
 </head>
 
 <body>
@@ -20,7 +22,8 @@
                 <!-- <span class="fa fa-bars menu-icon"></span> -->
                 <div class="header-right">
                     <a href="#home" class="active">Home</a>
-                    <a href="#about">About us</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                 </div>
             </div>
@@ -30,9 +33,65 @@
     <section id="mid">
         <!-- home -->
         <div class="home" id="home">
-            <h2>"Hello World"</h2>
+            <h1>"Hello World"</h1>
+            <h2 class="im"> We are team "<span class="typed"></span>"</h2>
         </div>
         <!-- last home -->
+        <div class="img-batas">
+            <img src="assets/img/projects.svg" alt="projects-img">
+        </div>
+        <!-- projects -->
+        <div class="projects" id="projects">
+            <div class="container">
+                <h1>Projects Us</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="assets/img/1.jpg" alt="projects-img">
+                            <div class="container">
+                                <p>"Hello World" Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <button id="btn-modal" class="btn btn-outline success" onclick="getId()"
+                                    value="bg-modal1">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="assets/img/1.jpg" alt="projects-img">
+                            <div class="container">
+                                <p>"Hello World" Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <button id="btn-modal" class="btn btn-outline success" onclick="getId()"
+                                    value="bg-modal2">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="assets/img/3.png" alt="projects-img">
+                            <div class="container">
+                                <p>"Hello World" Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <button id="btn-modal" class="btn btn-outline success" onclick="getId()"
+                                    value="bg-modal3">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="assets/img/1.jpg" alt="projects-img">
+                            <div class="container">
+                                <p>"Hello World" Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                <button id="btn-modal" class="btn btn-outline success" onclick="getId()"
+                                    value="bg-modal4">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- last projects -->
+
+
+
 
         <!-- about -->
         <div class="about" id="about">
@@ -94,6 +153,89 @@
         </div>
         <!-- last contact us -->
     </section>
+
+
+
+
+
+
+    <!-- in-modal -->
+    <div id="bg-modal1" class="modal">
+        <div class="container">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Modal Header1</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other text...</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>Modal Footer</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bg-modal2" class="modal">
+        <div class="container">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Modal Header2</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other text...</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>Modal Footer</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bg-modal3" class="modal">
+        <div class="container">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Modal Header3</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other text...</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>Modal Footer</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bg-modal4" class="modal">
+        <div class="container">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Modal Header4</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other text...</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>Modal Footer</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="assets/js/custom.js"></script>
 </body>
