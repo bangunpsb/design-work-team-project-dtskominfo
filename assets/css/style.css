@@ -94,7 +94,7 @@ header {
     top: 10vw;
     display: inline-block;
     height: 50vw;
-    width: 100vw;
+    width: 100%;
     color: black;
 }
 
