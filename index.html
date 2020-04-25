@@ -141,13 +141,15 @@
             <div class="container">
                 <h1>Contact Us</h1>
                 <p>Lets get in touch and talk about your next project.</p>
+                <p id="my-form-status"></p>
                 <div class="form">
-                    <form action="">
+                    <form id="my-form" action="https://formspree.io/xjnzpbpx" method="POST">
                         <img src="assets/img/undraw/contact.svg" alt="">
-                        <input type="text" class="name" placeholder="Ex: Andi Firmansyah">
-                        <input type="email" class="email" placeholder="Ex: andi@gmail.com">
-                        <textarea class="textarea" placeholder="Your Message Here"></textarea>
-                        <button class="btn-outline gby sd-3 msg">Send Message</button>
+                        <input type="text" class="name" name="name" placeholder="Ex: Andi Firmansyah" required
+                            maxlength="50">
+                        <input type="email" class="email" name="email" placeholder="Ex: andi@gmail.com" required>
+                        <textarea class="textarea" name="message" placeholder="Your Message Here" required></textarea>
+                        <button id="my-form-button" class="btn-outline gby sd-3 msg">Send Message</button>
                     </form>
                 </div>
                 <div class="sosial-media">
@@ -255,9 +257,8 @@
     </div>
 
 
-
-
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/formspree.js"></script>
 </body>
 
 </html>
