@@ -1,7 +1,13 @@
 # Kelompok B-18 Prograte DTS HTML, CSS, Javascript.
 
+### Pembuatan : HTML, CSS,Javascript
 
-### Catatan
+### Fitur :
+* Responsive PC,Tablet, Smartphone.
+* Design Modal, Card Project us dengan CSS.
+* Send Message to Email menggunakan ajax dengan Formspree.
+
+### Catatan :
 
 ***
 
@@ -20,7 +26,7 @@
 6. Untuk form contact saya submit ke email [saya](https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfqbppRwtWWMnpMHBXgxFFLDQHgTxwZTNnVkzPwtmwrWNjXDfwkpCWNkHNcJBjGPJGlmvq) menggunakan formspree [formspree](https://formspree.io/) 
 
 
-				= = = T H A N K S = = =
+	= = = T H A N K S = = =
 
 	Yang belum bergabung, silahkan bergabung dan berdiskusi bareng 
 	disini [grup telegram](https://t.me/joinchat/JVLEpkzx2nNKGDSClVtpkA) 
