@@ -1,3 +1,18 @@
+// toggle header
+function burger() {
+    let header = document.querySelector("#navbar");
+    header.classList.toggle('click-active');
+    // if (evt == "burger") {
+    //     let header = document.querySelector("#navbar");
+    //     header.classList.toggle('click-active');
+    //     // console.log("burger");
+    // } else if (evt != "burger") {
+    //     // for (let i = 0; i < evt.length; i++) {
+    //     //     evt[i].classList.add('active');
+    //     // }
+    // }
+}
+
 // slide click
 let slideIndex = 1;
 showDivs(slideIndex);
@@ -21,7 +36,6 @@ function showDivs(n) {
     x[slideIndex - 1].style.display = "block";
 }
 
-
 // typed
 let typed = new Typed('.typed', {
     strings: ["Web Developer.", "Mobile Apps Developer.", "Desktop Apps Developer.", "UI/UX Designer.", "System Analyst."],
@@ -30,45 +44,16 @@ let typed = new Typed('.typed', {
     loop: true
 });
 
-
-// modal action
-// function getId() {
-//     // cek value btn yg diklik
-//     window.onclick = e => {
-//         const targetId = e.target.value;
-//         // dapatkan id modal berdasarkan value btn yg diklik
-//         const modal = document.getElementById(targetId);
-//         const span = document.getElementsByClassName("close")[0];
-//         modal.style.display = "block";
-
-//         span.onclick = function () {
-//             modal.style.display = "none";
-//         }
-
-//         // ketika diklik diluar modal display none atau tdk ada
-//         window.onclick = function (event) {
-//             if (event.target == modal) {
-//                 modal.style.display = "none";
-//             }
-//         }
-//     }
-
-// }
-
-
+// modal
 function getId(e) {
     const modal = document.getElementById(e);
     modal.style.display = "block";
-
-
     const span = document.getElementsByClassName("close");
     Array.from(span).forEach((el) => {
         el.onclick = function () {
             modal.style.display = "none";
         }
     });
-
-    // ketika diklik diluar modal display none atau tdk ada
     window.onclick = function (event) {
         if (event.target == modal) {
             modal.style.display = "none";
