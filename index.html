@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DTS P B-18</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/property.css">
     <link rel="stylesheet" href="assets/css/animation.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -19,12 +20,18 @@
                 <div class="header-left">
                     <p class="logo">DTS P B-18</p>
                 </div>
-                <!-- <span class="fa fa-bars menu-icon"></span> -->
+                <span class="burger" onclick="burger()"></span>
                 <div class="header-right">
-                    <a href="#home" class="active">Home</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
+                    <ul>
+                        <li><a href="#home" class="links link-home active" onclick="burger(this.className)">Home</a>
+                        </li>
+                        <li><a href="#projects" class="links link-projects"
+                                onclick="burger(this.className)">Projects</a>
+                        </li>
+                        <li><a href="#about" class="links link-about" onclick="burger(this.className)">About</a></li>
+                        <li><a href="#contact" class="links link-contact" onclick="burger(this.className)">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </header>
@@ -47,59 +54,42 @@
             <div class="container">
                 <h1>Projects Us</h1>
                 <div class="row">
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="assets/img/project-1/bg.png" alt="projects-img">
-                            <div class="container">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                                <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
-                                    value="bg-modal1">Detail</button>
-                            </div>
+                    <div class="card">
+                        <img src="assets/img/project-1/bg.png" alt="projects-img">
+                        <div class="container">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
+                                value="bg-modal1">Detail</button>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="assets/img/project-1/bg.png" alt="projects-img">
-                            <div class="container">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                                <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
-                                    value="bg-modal2">Detail</button>
-                            </div>
+                    <div class="card">
+                        <img src="assets/img/project-1/bg.png" alt="projects-img">
+                        <div class="container">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <button id="btn-modal" class="btn btn-outline  sd-3 success" onclick="getId(this.value)"
+                                value="bg-modal2">Detail</button>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="assets/img/project-1/bg.png" alt="projects-img">
-                            <div class="container">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                                <button id="btn-modal" class="btn btn-outline  sd-3 success" onclick="getId(this.value)"
-                                    value="bg-modal3">Detail</button>
-                            </div>
+                    <div class="card">
+                        <img src="assets/img/project-1/bg.png" alt="projects-img">
+                        <div class="container">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
+                                value="bg-modal3">Detail</button>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="assets/img/project-1/bg.png" alt="projects-img">
-                            <div class="container">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                                <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
-                                    value="bg-modal4">Detail</button>
-                            </div>
+                    <div class="card">
+                        <img src="assets/img/project-1/bg.png" alt="projects-img">
+                        <div class="container">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
+                                value="bg-modal4">Detail</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- last projects -->
-
-
-        <div class="wave-1">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#0099ff" fill-opacity="1"
-                    d="M0,256L48,229.3C96,203,192,149,288,149.3C384,149,480,203,576,229.3C672,256,768,256,864,250.7C960,245,1056,235,1152,208C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-                </path>
-            </svg>
-        </div>
 
         <!-- about -->
         <div class="about" id="about">
@@ -136,6 +126,7 @@
                 </path>
             </svg>
         </div>
+
         <!-- contact us -->
         <div class="contact us" id="contact">
             <div class="container">
@@ -149,7 +140,7 @@
                             maxlength="50">
                         <input type="email" class="email" name="email" placeholder="Ex: andi@gmail.com" required>
                         <textarea class="textarea" name="message" placeholder="Your Message Here" required></textarea>
-                        <button id="my-form-button" class="btn-outline gby sd-3 msg">Send Message</button>
+                        <button id="my-form-button" class="btn-outline gbrgb sd-3 msg">Send Message</button>
                     </form>
                 </div>
                 <div class="sosial-media">
@@ -159,22 +150,14 @@
                 </div>
             </div>
         </div>
-
         <!-- last contact us -->
-
     </section>
 
-
     <section id="footer">
-        <!-- contact us -->
         <div class="footer">
             <h1>&copy;2020 DTS P B-18, Team. </h1>
         </div>
-        <!-- last contact us -->
     </section>
-
-
-
 
 
 
@@ -255,7 +238,6 @@
             </div>
         </div>
     </div>
-
 
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/formspree.js"></script>
