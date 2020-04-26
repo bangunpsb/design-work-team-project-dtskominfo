@@ -95,23 +95,21 @@
 
 .gblue {
     border-color: #fff;
-    color: linear-gradient(90deg, #95a5a6, #2c3e50);
-
 }
 
 .gblue:hover {
     background-image: linear-gradient(180deg, #0099ff, #1E50D8);
-    color: white;
+    color: #fff;
 }
 
-.gby {
-    -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #E8EB25)) 21 30 30 21 repeat repeat;
-    background-color: rgba(0, 0, 0, 0.1);
+.gbrgb {
+    animation: btn-gbrgb 5s linear;
+    border-color: #fff;
 }
 
-.gby:hover {
-    background-color: linear-gradient(180deg, #0099ff, #1E50D8);
-    color: white;
+.gbrgb:hover {
+    background-image: linear-gradient(180deg, #0099ff, #1E50D8);
+    color: #fff;
 }
 
 .sd-1:hover {
@@ -130,38 +128,27 @@
     box-shadow: 0 14px 22px 0 rgba(0, 0, 0, 0.8);
 }
 
-
 /* card */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 100%;
-    border-radius: 5px;
-}
-
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card img {
     display: block;
-    margin-bottom: 2vw;
+    margin-bottom: 5%;
     border-radius: 5px 5px 0 0;
     width: 100%;
     height: 100%;
 }
 
 .card button {
-    margin: 50px 50px;
+    margin: 20% 20%;
     display: inline-block;
     width: 50%;
     height: 50%;
 }
 
-
-
-/* modal */
-/* background modal */
+/* Modal */
 .modal {
     display: none;
     position: fixed;
@@ -176,7 +163,7 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Modal Content */
+/* Content */
 .modal-content {
     position: absolute;
     background-color: #fefefe;
@@ -191,8 +178,7 @@
     animation-duration: 0.4s
 }
 
-
-/* The Close Button */
+/* Button close */
 .close {
     color: white;
     float: right;
