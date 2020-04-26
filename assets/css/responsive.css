@@ -17,7 +17,7 @@
 /* tablet */
 @media all and (max-width:1000px) {
     .header-right {
-        margin-left: 50%;
+        margin-left: 20%;
     }
 
     .home h1 {
