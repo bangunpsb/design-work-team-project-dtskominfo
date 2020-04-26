@@ -1,4 +1,4 @@
-# Tes Kelompok B-18 Prograte DTS HTML, CSS, Javascript.
+# Kelompok B-18 Prograte DTS HTML, CSS, Javascript.
 
 
 ### Catatan
