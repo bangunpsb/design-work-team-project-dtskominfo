@@ -1,3 +1,17 @@
+@keyframes btn-gbrgb {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes dropbatas {
     0% {
         opacity: 0;
@@ -22,7 +36,6 @@
     }
 }
 
-
 /* Modal Animation */
 @-webkit-keyframes animatetop {
     from {
@@ -36,19 +49,6 @@
     }
 }
 
-@keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-
-    to {
-        top: 0;
-        opacity: 1
-    }
-}
-
-
 
 @keyframes mymove {
     0% {
@@ -60,5 +60,73 @@
         opacity: 0;
         transform: translateY(-80px);
         display: none;
+    }
+}
+
+@keyframes spinfb {
+    0% {
+        transform: rotate(-45deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(45deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes spintwit {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+@keyframes spinyt {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-45deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
     }
 }
