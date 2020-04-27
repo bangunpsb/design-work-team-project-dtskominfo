@@ -36,6 +36,14 @@ header {
     float: left;
 }
 
+.logo {
+    margin-top: -1px;
+    width: 100px;
+    z-index: 10;
+    position: absolute;
+    margin-left: 50px;
+}
+
 .header-right {
     margin-left: 60%;
 }
@@ -102,6 +110,26 @@ header {
     font-size: 40px;
     text-align: center;
     margin-bottom: 100px;
+    display: block;
+}
+
+.projects input {
+    font-size: 15px;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+    margin: 100px auto;
+}
+
+.projects input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.projects input::placeholder {
+    color: black;
+    font-weight: bold;
 }
 
 /* about */
@@ -162,7 +190,7 @@ header {
     display: inline-block;
     width: 30vw;
     margin: 2vw;
-    animation: dropcontact 5s ease;
+    animation: dropcontact 10s ease infinite;
 }
 
 .contact input,
