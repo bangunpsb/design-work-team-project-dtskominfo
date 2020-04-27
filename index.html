@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTS P B-17</title>
+    <title>DTS B18 TEAM</title>
+    <link rel="icon" href="assets/img/project-2/log.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/property.css">
     <link rel="stylesheet" href="assets/css/animation.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="assets/js/typed.min.js"></script>
 </head>
 
@@ -18,7 +20,8 @@
         <header>
             <div class="container">
                 <div class="header-left">
-                    <p class="logo">DTS P B-18</p>
+                    <!-- <p class="logo">DTS P B-18</p> -->
+                    <img src="assets/img/project-2/log.png" class="logo" alt="logo">
                 </div>
                 <span class="burger" onclick="burger(this.className)"></span>
                 <div class="header-right">
@@ -53,37 +56,71 @@
         <div class="projects" id="projects">
             <div class="container">
                 <h1>Projects Us</h1>
+                <input type="search" id="search" class="search" name="search" placeholder="Search Keyword Project us"
+                    maxlength="50" onkeyup="mysearch()" value="">
                 <div class="row">
                     <div class="card">
-                        <img src="assets/img/project-1/bg.png" alt="projects-img">
+                        <img src="assets/img/project-2/1.png" style="width: 100px;height: 100px;" alt="projects-img">
                         <div class="container">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <p>Logo Design B-18 Team v.1</p>
                             <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
                                 value="bg-modal1">Detail</button>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="assets/img/project-1/bg.png" alt="projects-img">
+                        <img src="assets/img/project-2/4.jpg" style="width: 100px;height: 100px;" alt="projects-img">
                         <div class="container">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <p>Logo Design B-18 Team v.2</p>
                             <button id="btn-modal" class="btn btn-outline  sd-3 success" onclick="getId(this.value)"
                                 value="bg-modal2">Detail</button>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="assets/img/project-1/bg.png" alt="projects-img">
+                        <img src="assets/img/project-2/2.jpg" style="width: 100px;height: 100px;" alt="projects-img">
                         <div class="container">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                            <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
+                            <p>Workshop Digital Kominfo 2019</p>
+                            <button id="btn-modal" class="btn btn-outline  sd-3 success" onclick="getId(this.value)"
                                 value="bg-modal3">Detail</button>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="assets/img/project-1/bg.png" alt="projects-img">
+                        <img src="assets/img/project-2/3.jpg" style="width: 100px;height: 100px;" alt="projects-img">
                         <div class="container">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                            <p>Workshop Digital Kominfo 2020</p>
                             <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
                                 value="bg-modal4">Detail</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/project-1/3.jpg" style="width: 100px;height: 100px;" alt="projects-img">
+                        <div class="container">
+                            <p>Design Portfolio Website v.1</p>
+                            <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
+                                value="bg-modal5">Detail</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/project-1/5.jpg" style="width: 100px;height: 100px;" alt="projects-img">
+                        <div class="container">
+                            <p>Design Portfolio Website v.2</p>
+                            <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
+                                value="bg-modal6">Detail</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/project-1/1.jpg" style="width: 100px;height: 100px;" alt="projects-img">
+                        <div class="container">
+                            <p>Design E-Learning Website v.1</p>
+                            <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
+                                value="bg-modal7">Detail</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/project-1/4.jpg" style="width: 100px;height: 100px;" alt="projects-img">
+                        <div class="container">
+                            <p>Curriculum Vitae v.1</p>
+                            <button id="btn-modal" class="btn btn-outline sd-3 success" onclick="getId(this.value)"
+                                value="bg-modal8">Detail</button>
                         </div>
                     </div>
                 </div>
@@ -96,21 +133,29 @@
             <div class="container">
                 <h1>About Us</h1>
                 <div class="slider">
+                    <img src="assets/img/profile-team/1.jpg" alt="profile-img">
+                    <blockquote>
+                        "Something start from zero to hero nothing's easy and nothing's difficult just do it."
+                    </blockquote>
+                </div>
+                <div class="slider">
+                    <img src="assets/img/profile-team/2.png" alt="profile-img">
+                    <blockquote>
+                        "Try again, Try again, Try again ."
+                    </blockquote>
+                </div>
+                <div class="slider">
                     <img src="assets/img/profile-team/male.svg" alt="profile-img">
                     <blockquote>
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempore quibusdam porro
-                        cum incidunt fugiat nesciunt, deserunt et iusto quas, fugit quos quia sunt ipsa, laborum iste
-                        aut. Corrupti maiores doloremque iusto blanditiis recusandae sint ipsam suscipit atque.
-                        Consectetur temporibus ad est ullam quidem fuga eaque aperiam! Quibusdam, nostrum inventore! "
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, amet et. Aspernatur,
+                        sit."
                     </blockquote>
                 </div>
                 <div class="slider">
                     <img src="assets/img/profile-team/female.svg" alt="profile-img">
                     <blockquote>
-                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, amet et. Aspernatur, sit
-                        nemo? Tenetur atque quas necessitatibus sed magni deleniti ipsam earum omnis sunt dicta libero,
-                        praesentium mollitia adipisci commodi esse rem officiis quidem ullam dolor exercitationem?
-                        Doloribus sequi deserunt ut nesciunt quod! Ullam ipsum veritatis corrupti praesentium enim."
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, amet et. Aspernatur,
+                        sit."
                     </blockquote>
                 </div>
                 <button class="btn-outline gblue sd-3 btn-left" onclick="plusDivs(-1)">&#10094;</button>
@@ -168,14 +213,14 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <span class="close">&times;</span>
-                    <h2>Company Profile</h2>
+                    <h2>Logo Design</h2>
                 </div>
                 <div class="modal-body">
-                    <img src="assets/img/project-1/2.png" alt="">
-                    <p>Description : "Design web company profile for E-Learning"</p>
+                    <img src="assets/img/project-2/1.png" style="width: 200px;height: 200px;" alt="modal-img">
+                    <p>Description : "Logo Design Team B-18 DTS-20 Versi 1"</p>
                 </div>
                 <div class="modal-footer">
-                    <p>Created by : xxxx</p>
+                    <p>Created by : Astin Pratiwi</p>
                     <p>Contact : xxxx</p>
                 </div>
             </div>
@@ -188,14 +233,15 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <span class="close">&times;</span>
-                    <h2>Modal Header2</h2>
+                    <h2>Logo Design</h2>
                 </div>
                 <div class="modal-body">
-                    <p>Some text in the Modal Body</p>
-                    <p>Some other text...</p>
+                    <img src="assets/img/project-2/4.jpg" style="width: 200px;height: 200px;" alt="modal-img">
+                    <p>Description : "Logo Design Team B-18 DTS-20 Versi 2"</p>
                 </div>
                 <div class="modal-footer">
-                    <h3>Modal Footer</h3>
+                    <p>Created by : Astin Pratiwi</p>
+                    <p>Contact : xxxx</p>
                 </div>
             </div>
         </div>
@@ -207,18 +253,20 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <span class="close">&times;</span>
-                    <h2>Modal Header3</h2>
+                    <h2>Workshop</h2>
                 </div>
                 <div class="modal-body">
-                    <p>Some text in the Modal Body</p>
-                    <p>Some other text...</p>
+                    <img src="assets/img/project-2/2.jpg" style="width: 200px;height: 200px;" alt="modal-img">
+                    <p>Description : "Workshop Digital Kominfo 2019"</p>
                 </div>
                 <div class="modal-footer">
-                    <h3>Modal Footer</h3>
+                    <p>Created by : Astin Pratiwi</p>
+                    <p>Contact : xxxx</p>
                 </div>
             </div>
         </div>
     </div>
+
 
     <div id="bg-modal4" class="modal">
         <div class="container">
@@ -226,14 +274,96 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <span class="close">&times;</span>
-                    <h2>Modal Header4</h2>
+                    <h2>Website</h2>
                 </div>
                 <div class="modal-body">
-                    <p>Some text in the Modal Body</p>
-                    <p>Some other text...</p>
+                    <img src="assets/img/project-2/3.jpg" style="width: 200px;height: 200px;" alt="modal-img">
+                    <p>Description : "Workshop Digital Kominfo 2020"</p>
                 </div>
                 <div class="modal-footer">
-                    <h3>Modal Footer</h3>
+                    <p>Created by : Astin Pratiwi</p>
+                    <p>Contact : xxxx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="bg-modal5" class="modal">
+        <div class="container">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Website</h2>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/project-1/3.jpg" style="width: 200px;height: 200px;" alt="modal-img">
+                    <p>Description : "Design Website Portfolio Versi 1"</p>
+                </div>
+                <div class="modal-footer">
+                    <p>Created by : Bangun Pasaribu</p>
+                    <p>Contact : xxxx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bg-modal6" class="modal">
+        <div class="container">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Website</h2>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/project-1/5.jpg" style="width: 200px;height: 200px;" alt="modal-img">
+                    <p>Description : "Design Website Portfolio Versi 2"</p>
+                </div>
+                <div class="modal-footer">
+                    <p>Created by : Bangun Pasaribu</p>
+                    <p>Contact : xxxx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bg-modal7" class="modal">
+        <div class="container">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Website</h2>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/project-1/1.jpg" style="width: 200px;height: 200px;" alt="modal-img">
+                    <p>Description : "Design Website E-Learning Versi 1"</p>
+                </div>
+                <div class="modal-footer">
+                    <p>Created by : Bangun Pasaribu</p>
+                    <p>Contact : xxxx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bg-modal8" class="modal">
+        <div class="container">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Curriculum Vitae</h2>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/project-1/4.jpg" style="width: 200px;height: 200px;" alt="modal-img">
+                    <p>Description : "Design Curriculum Vitae Versi 1"</p>
+                </div>
+                <div class="modal-footer">
+                    <p>Created by : Bangun Pasaribu</p>
+                    <p>Contact : xxxx</p>
                 </div>
             </div>
         </div>
