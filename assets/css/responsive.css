@@ -1,5 +1,21 @@
 /* pc */
 @media all and (min-width: 1200px) {
+    .img-batas img {
+        display: block;
+        width: 20%;
+        animation: dropbatas 5s ease;
+    }
+
+    .projects {
+        display: inline;
+        margin-left: -100px;
+    }
+
+    .projects h1 {
+        margin: 10% 100px 100px 0;
+        text-align: center;
+    }
+
     .card {
         position: relative;
         float: left;
@@ -10,6 +26,11 @@
         border-radius: 5px;
         margin-bottom: 50px;
     }
+
+    .about {
+        margin-top: 100px;
+    }
+
 }
 
 
@@ -42,6 +63,7 @@
     }
 
     .card {
+        position: relative;
         float: left;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
@@ -58,14 +80,8 @@
 }
 
 
-
 /* hp */
 @media all and (max-width: 670px) {
-    .logo {
-        z-index: 10;
-        position: absolute;
-        margin-left: 50px;
-    }
 
     /* burger position */
     header ul {
@@ -173,7 +189,6 @@
         background-color: #ffffff;
         border-radius: 5px;
         margin-bottom: 50px;
-
     }
 
     /* about */
