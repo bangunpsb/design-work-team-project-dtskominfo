@@ -1,11 +1,18 @@
 # Kelompok B-18 Prograte DTS HTML, CSS, Javascript.
 
 
+### Fitur :
+*Responsive PC, Tablet, Smarthpone
+*Search keyword with js
+*Modal with CSS
+*Send Message with use ajax plugin formspree
+
+
 ### Catatan
 
 ***
 
-1. Gambar profile masing-masing, klw bisa png dimasukan ke folder assets/img/profile-team/bangun.png
+1. Gambar profile masing-masing, klw bisa png dimasukan ke folder assets/img/profile-team/xxx.png
 
 2. Isi quote di file Quote.txt, bebas karena ini hanya untuk contoh aja.
 
