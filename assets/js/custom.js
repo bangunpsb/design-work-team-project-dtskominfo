@@ -2,15 +2,6 @@
 function burger() {
     let header = document.querySelector("#navbar");
     header.classList.toggle('click-active');
-    // if (evt == "burger") {
-    //     let header = document.querySelector("#navbar");
-    //     header.classList.toggle('click-active');
-    //     // console.log("burger");
-    // } else if (evt != "burger") {
-    //     // for (let i = 0; i < evt.length; i++) {
-    //     //     evt[i].classList.add('active');
-    //     // }
-    // }
 }
 
 // slide click
@@ -34,6 +25,24 @@ function showDivs(n) {
         x[i].style.display = "none";
     }
     x[slideIndex - 1].style.display = "block";
+}
+
+// search input
+function mysearch() {
+    let search_data = document.getElementById("search");
+    let filter = search_data.value.toLowerCase();
+    // console.log(filter);
+    let data = document.getElementsByClassName("card");
+    for (i = 0; i < data.length; i++) {
+        loop = data[i].getElementsByTagName("p")[0];
+        val_loop = loop.textContent || loop.innerText;
+        if (val_loop.toLowerCase().indexOf(filter) > -1) {
+            data[i].style.display = "";
+        } else {
+            data[i].style.display = "none";
+        }
+    }
+
 }
 
 // typed
