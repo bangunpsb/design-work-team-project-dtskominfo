@@ -3,6 +3,7 @@
 ### Pembuatan : HTML, CSS,Javascript
 
 ### Fitur :
+* Search keyowrd menggunakan javascript
 * Responsive PC,Tablet, Smartphone.
 * Design Modal, Card Project us dengan CSS.
 * Send Message to Email menggunakan ajax dengan Formspree.
